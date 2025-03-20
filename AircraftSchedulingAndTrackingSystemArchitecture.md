@@ -2,7 +2,7 @@
 
 ## Attribution
 
-This document was authored by LeRoy D'Souza
+This document was authored by Leeroy D'Souza
 
 ## Table of Contents
 
@@ -15,7 +15,6 @@ This document was authored by LeRoy D'Souza
 - CI/CD Pipeline Implementation
 - Testing Strategy
 - UX/UI Design Principles
-- Security Considerations
 - Deployment Guidelines
 - Conclusion
 - Glossary
@@ -340,53 +339,153 @@ The system implements a comprehensive testing strategy:
 
 ## UX/UI Design Principles
 
-The system follows professional UX/UI design principles:
+The system implements comprehensive UX/UI design principles:
 
-1. User-Centric Design
-  - Clear navigation patterns
-  - Intuitive controls
-  - Consistent feedback mechanisms
+### 1. User-Centric Design
+
+- Thorough user research to understand pilot and crew member requirements
+- Design prototyping for flight scheduling and crew management systems
+- Regular usability testing for feedback collection and design refinement
+
+### 2. Consistency and Hierarchy
+
+- Standardized component library across all applications
+- Clear navigation structure with intuitive information architecture
+- Consistent visual design language throughout the system
+
+### 3. Context and Accessibility
+
+- Responsive design for varying screen sizes and devices
+- Screen reader support and keyboard navigation
+- High contrast mode and font size adjustment options
+
+### 4. User Control and Feedback
+
+- Intuitive controls for workflow management
+- Clear confirmation messages for successful operations
+- Progress indicators for ongoing processes
+
+### 5. Security and Privacy
+
+- Two-factor authentication for all users
+- Data encryption both in transit and at rest
+- Role-based access control for sensitive operations
+
+### 6. Scalability and Performance
+
+- Scalable architecture using microservices
+- Optimized resource loading
+- Caching strategies for frequently accessed data
+
+### 7. Responsive Design
+
+- Cross-device compatibility
+- Adaptive layouts for different screen sizes
+- Touch-friendly controls for mobile devices
+
+### 8. Iterative Design and Feedback
+
+- Regular usability testing sessions
+- User feedback collection and analysis
+- Iterative design updates based on user input
+
+## Example Applications
+
+### Flight Scheduling Dashboard
+
+The dashboard provides:
+
+- Interactive real-time updates for flight management
+- Data visualization for complex flight data
+- Efficient management of flight assignments
+
+### Crew Management System
+
+The system offers:
+
+- User-friendly interface for scheduling and training
+- Real-time notifications for crew updates
+- Performance tracking and management tools
+
+### Passenger Services App
+
+Passengers benefit from:
+
+- Intuitive navigation system
+- Real-time flight status updates
+- Gate change notifications and relevant travel information
+
+By integrating these UX/UI design principles into Alaska Airlines' internal applications, the airline can enhance operational efficiency, improve user satisfaction, and maintain a competitive edge in the aviation industry.
+
+## Glossary
+
+- Responsive Design: Design approach that adapts to different screen sizes and devices
+- User-Centric Design: Design methodology focusing on user needs and behaviors
+- Microservices: Small, independent services that communicate with each other
+- Data Visualization: Presentation of complex data in an easily understandable format
+- Accessibility: Design features that ensure all users can access and use the system
+- Iterative Design: Continuous refinement of design based on user feedback
+- Cross-Device Compatibility: Ability of applications to work seamlessly across different devices
+
+## Appendix
+
+### A. Implementation Guidelines
+
+1. Development Process
+  - Follow agile methodology
+  - Implement continuous integration
+  - Conduct regular code reviews
 
 
-2. Performance Optimization
-  - Lazy loading of resources
-  - Caching strategies
-  - Optimized data fetching
+2. Testing Requirements
+  - Unit testing for all components
+  - Integration testing for service interactions
+  - User acceptance testing for business requirements
 
 
-3. Security Considerations
-  - Input validation
-  - Authentication/Authorization
-  - Data encryption
-
-
-
-## Deployment Guidelines
-
-1. Development Environment
-  - Docker Compose for local development
-  - Hot reload for frontend changes
-  - Debugging tools integration
-
-
-2. Production Environment
-  - Kubernetes for orchestration
-  - Load balancing configuration
+3. Deployment Strategy
+  - Automated deployment pipelines
+  - Rollback procedures
   - Monitoring and logging setup
 
 
 
-## Conclusion
+### B. Technical Considerations
 
-The Aircraft Scheduling and Tracking System demonstrates a modern, scalable architecture that combines robust backend services with a user-friendly frontend interface. The system's modular design enables easy maintenance and future enhancements, while the event-driven architecture ensures reliable operation under various load conditions. The comprehensive testing strategy and deployment guidelines ensure high quality and reliability in production environments.
+1. Performance Optimization
+  - Caching strategies
+  - Database indexing
+  - Resource optimization
 
-## Glossary
 
-- API: Application Programming Interface
-- CI/CD: Continuous Integration/Continuous Deployment
-- Container: Lightweight and standalone executable package
-- Event-Driven Architecture: Design pattern where components communicate through events
-- Kubernetes: Container orchestration system
-- Microservices: Small, independent services that communicate with each other
-- Orchestration: Automated deployment and management of containers
-- Stateful
+2. Security Measures
+  - Authentication protocols
+  - Data encryption methods
+  - Access control implementation
+
+
+3. Scalability Factors
+  - Horizontal scaling capabilities
+  - Load balancing strategies
+  - Resource allocation planning
+
+
+
+### C. Maintenance Guidelines
+
+1. Regular Updates
+  - Security patches
+  - Feature enhancements
+  - Performance optimizations
+
+
+2. Monitoring Requirements
+  - System performance metrics
+  - User activity tracking
+  - Error logging and analysis
+
+
+3. Backup Procedures
+  - Data backup schedules
+  - Recovery procedures
+  - Disaster recovery planning
